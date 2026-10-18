@@ -1,0 +1,10 @@
+export const projectDetails: Record<string, { name: string; summary: string; deliverables: string[] }> = {
+  "behance-184551257": { name: "Blue Wave Tech", summary: "Identidade visual para uma marca de tecnologia. O projeto reúne a marca, sua linguagem gráfica e aplicações em peças digitais e materiais de comunicação.", deliverables: ["Identidade visual", "Linguagem gráfica", "Aplicações de marca"] },
+  "behance-86600217": { name: "Mangia Bene", summary: "Identidade visual para uma pizzaria italiana. A apresentação mostra a construção da marca e sua aplicação em embalagens e peças de comunicação.", deliverables: ["Identidade visual", "Embalagens", "Aplicações de marca"] },
+  "behance-206087051": { name: "Immigrex Global", summary: "Identidade visual para um serviço de imigração. O case apresenta a marca, a paleta e aplicações em mídia externa e materiais de comunicação.", deliverables: ["Identidade visual", "Paleta de cores", "Aplicações de marca"] },
+  "behance-251835227": { name: "Leviah", summary: "Uma coleção de criativos para redes sociais da Leviah. As peças exploram produtos de beleza e cuidados com a pele por meio de fotografia, tipografia e composição.", deliverables: ["Design para redes sociais", "Composição visual", "Peças de produto"] },
+  "behance-251835153": { name: "Taynara Guerra", summary: "Coleção de peças para as redes sociais de Taynara Guerra. Fotografia, tipografia e uma paleta contida formam a linguagem visual das publicações.", deliverables: ["Design para redes sociais", "Linguagem visual", "Série de publicações"] },
+  "behance-251833475": { name: "Mirella Marreira", summary: "Criativos para as redes sociais de Mirella Marreira. O projeto reúne peças que combinam referências de moda, fotografia e conteúdo em uma linguagem editorial.", deliverables: ["Design para redes sociais", "Composição editorial", "Série de publicações"] },
+};
+
+export const homeProjectSlugs = ["behance-184551257", "behance-251835227", "behance-86600217", "behance-251835153", "behance-206087051", "behance-251833475"];
