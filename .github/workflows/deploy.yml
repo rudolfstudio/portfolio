@@ -1,0 +1,46 @@
+name: Publicar portfolio
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Importar arquivos do portfolio
+        run: |
+          if [ ! -f package.json ]; then
+            cat source.part* > /tmp/portfolio-source.zip
+            unzip -o /tmp/portfolio-source.zip
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src public scripts package.json pnpm-lock.yaml next.config.ts next-env.d.ts postcss.config.mjs tsconfig.json DESIGN.md GUIA-DE-IMAGENS.md
+            git rm source.part*
+            git commit -m "Import portfolio source and assets [skip ci]"
+            git push
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Instalar dependencias
+        run: npx --yes pnpm@11.25.0 install --frozen-lockfile
+      - name: Gerar site
+        run: npx --yes pnpm@11.25.0 build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
