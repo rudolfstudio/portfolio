@@ -14,4 +14,3 @@ export function Logo({ light = false, className = "", priority = false }: Props)
     />
   );
 }
-

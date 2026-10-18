@@ -151,26 +151,42 @@
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/223999127/Landing-Page-Articula-Life",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/landing/articula-life/cover.png",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/landing/articula-life/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/landing/articula-life/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/landing/articula-life/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/landing/articula-life/04.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/landing/articula-life/05.jpg",
+        "width": 1080,
+        "height": 1350
       }
+    ],
+    "summary": "Landing page para a Articula Life. O case apresenta o design da página em versões para computador e celular, com a organização das seções, apresentação do produto e chamadas para compra.",
+    "deliverables": [
+      "Design de landing page",
+      "Layout para desktop e mobile",
+      "Composição visual"
     ]
   },
   {
@@ -267,25 +283,30 @@
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/206087051/Immigrex-Global",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/identity/behance-206087051/cover.jpg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-206087051/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-206087051/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-206087051/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-206087051/04.jpg",
+        "width": 1080,
+        "height": 1350
       }
     ]
   },
@@ -296,54 +317,64 @@
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/200261679/A-Invest",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/identity/behance-200261679/cover.jpg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-200261679/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-200261679/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-200261679/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-200261679/04.jpg",
+        "width": 1080,
+        "height": 1350
       }
     ]
   },
   {
     "slug": "behance-184551257",
-    "title": "Blue Wave Tech",
+    "title": "BlueWave Tech",
     "category": "Identidade visual",
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/184551257/Blue-Wave-Tech-Identidade-visual",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/identity/behance-184551257/cover.jpg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-184551257/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-184551257/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-184551257/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-184551257/04.jpg",
+        "width": 1080,
+        "height": 1350
       }
     ]
   },
@@ -499,25 +530,45 @@
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/104365357/Camile-Convites-Logotipo",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/identity/behance-104365357/cover.jpg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-104365357/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-104365357/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-104365357/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-104365357/04.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-104365357/05.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-104365357/06.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-104365357/07.jpg",
+        "width": 1080,
+        "height": 1350
       }
     ]
   },
@@ -528,54 +579,74 @@
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/86600217/Mangia-Bene-Identidade-visual",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/identity/behance-86600217/cover.jpg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-86600217/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-86600217/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-86600217/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-86600217/04.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-86600217/05.jpg",
+        "width": 1080,
+        "height": 1350
       }
     ]
   },
   {
     "slug": "behance-100253345",
-    "title": "Estamp Silk",
+    "title": "EstampSilk",
     "category": "Identidade visual",
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/100253345/Estamp-Silk-Identidade-visual",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/identity/behance-100253345/cover.jpg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-100253345/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-100253345/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/identity/behance-100253345/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-100253345/04.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/identity/behance-100253345/05.jpg",
+        "width": 1080,
+        "height": 1350
       }
     ]
   },

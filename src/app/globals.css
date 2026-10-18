@@ -170,7 +170,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #111;outline-offset:6px}
 @media(prefers-reduced-motion:reduce){.site-header.scroll-header,.scroll-header .menu-trigger{transition:none}}
 .scroll-header--dark .site-header__brand img{filter:brightness(0) invert(1)}
 .category-home .portfolio-heading .home-kicker{margin:0 0 18px;font-size:11px;line-height:1.4;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#666}
-.category-home .portfolio-heading h1{font-size:clamp(50px,7.5vw,96px);line-height:.94;max-width:1000px}
+.category-home .portfolio-heading h1{font-size:clamp(54px,8.1vw,104px);line-height:.94;max-width:1080px}
 @media(max-width:700px){.category-home .portfolio-heading h1{font-size:clamp(42px,9vw,68px)}.category-home .portfolio-heading .home-kicker{font-size:10px;margin-bottom:16px}}
 
 /* Responsive heading: natural desktop flow, three deliberate mobile lines. */
@@ -179,4 +179,6 @@ a:focus-visible,button:focus-visible{outline:2px solid #111;outline-offset:6px}
 .project-context>a svg,.project-bottom a svg,.about-copy a svg,.footer__bottom a svg,.about-visuals span svg{display:inline-block;vertical-align:middle;margin-left:6px}
 .footer__cta>span{display:inline-flex;align-items:center;justify-content:center}
 .about-visuals span{display:flex;align-items:center;justify-content:space-between;gap:12px}
-@media(max-width:700px){.category-home .portfolio-heading h1{font-size:clamp(43px,13.6vw,86px);line-height:.94;letter-spacing:-.025em}.category-home .portfolio-heading h1 span{display:block;white-space:nowrap}}
+@media(max-width:700px){.category-home .portfolio-heading h1{font-size:clamp(43px,14.2vw,90px);line-height:.94;letter-spacing:-.025em}.category-home .portfolio-heading h1 span{display:block;white-space:nowrap}}
+
+.about-portrait{border-radius:12px;overflow:hidden}.about-portrait img{border-radius:12px}

@@ -6,7 +6,7 @@ import { portfolioCategories, getCategoryProjects } from "@/lib/portfolio-catego
 import styles from "./PortfolioNavigation.module.css";
 
 export function CategoryGrid() {
-  return <div className={styles.categories}>{portfolioCategories.map((category,index) => {
+  return <div className={styles.categories}>{portfolioCategories.filter(category => ["design-de-posts", "identidade-visual", "sites-e-landing-pages"].includes(category.slug)).map((category,index) => {
     const collection = getCategoryProjects(category.slug);
     const cover = categoryCovers[category.slug as keyof typeof categoryCovers];
     return <Link className={styles.category} href={`/projetos/categorias/${category.slug}`} key={category.slug}>

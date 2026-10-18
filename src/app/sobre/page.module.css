@@ -1,0 +1,18 @@
+.page{background:#fff;color:#111}
+.container{max-width:1120px;margin:0 auto;padding:136px 32px 100px}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:72px;padding-bottom:80px}
+.kicker{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#707070;font-weight:500}
+.intro h1{font-family:var(--font-display),Impact,sans-serif;font-size:clamp(86px,10vw,144px);line-height:.83;letter-spacing:-.025em;text-transform:uppercase;margin:30px 0}
+.role{font-size:15px;font-weight:600;line-height:1.6;margin:0 0 18px}.role span{padding:0 6px;color:#aaa;font-weight:400}
+.summary{font-size:20px;line-height:1.5;letter-spacing:-.025em;max-width:420px;color:#626262;margin:0 0 26px}
+.location{display:flex;align-items:center;gap:9px;font-size:11px;line-height:1.5;color:#707070}
+.contact{display:inline-flex;align-items:center;gap:24px;margin-top:26px;padding-bottom:8px;border-bottom:1px solid #111;font-size:12px;font-weight:500}
+.portrait{margin:0;overflow:hidden;border-radius:12px}.portrait img{width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.section{display:grid;grid-template-columns:240px minmax(0,1fr);gap:56px;border-top:1px solid #dedede;padding:40px 0 46px}
+.section h2{display:flex;align-items:center;gap:12px;margin:2px 0 0;font-size:15px;font-weight:500;letter-spacing:-.02em;align-self:start}.section h2 svg{flex:none}
+.content p{font-size:15px;line-height:1.8;color:#626262;margin:0 0 18px}.content p:last-child{margin-bottom:0}.content .lead{font-size:21px;line-height:1.55;letter-spacing:-.025em;color:#222}
+.areas{display:grid;gap:28px}.area{display:grid;grid-template-columns:28px 1fr;gap:18px}.area>svg{margin-top:3px;color:#666}.area h3{font-size:19px;font-weight:500;letter-spacing:-.03em;margin:0 0 8px}.area p{font-size:14px;line-height:1.75;color:#666;margin:0}
+.skills{display:grid;grid-template-columns:1fr 1fr;list-style:none;padding:0;margin:0 0 26px;column-gap:24px}.skills li{font-size:13px;padding:14px 0;border-bottom:1px solid #eee;line-height:1.5}.content .note{font-size:13px;color:#777}
+.links{display:grid}.links a{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid #eee;font-size:16px;letter-spacing:-.02em}.links a:first-child{padding-top:0}.links small{display:block;font-size:11px;color:#777;margin-top:6px;letter-spacing:0}.links a:hover,.contact:hover{color:#666}
+@media(max-width:760px){.container{padding:104px 20px 55px}.hero{grid-template-columns:1fr;gap:32px;padding-bottom:48px}.portrait{grid-row:1;max-width:460px;width:100%;justify-self:center}.intro h1{font-size:96px;margin:26px 0}.summary{font-size:19px}.section{grid-template-columns:1fr;gap:26px;padding:30px 0 36px}.section h2{font-size:14px}.content .lead{font-size:20px}.area h3{font-size:18px}.skills{column-gap:18px}.skills li{font-size:12px}.location{font-size:11px}}
+@media(max-width:360px){.skills{grid-template-columns:1fr}.role{font-size:14px}}
