@@ -13,13 +13,14 @@ export function Header({ light = false, immersive = false }: { light?: boolean; 
   const [atTop, setAtTop] = useState(true);
   const pathname = usePathname();
   const home = pathname === "/" || pathname === "/projetos" || pathname === "/projetos/";
-  const dark = !home || !atTop;
+  const dark = !home;
 
   useEffect(() => {
     let anchor = Math.max(0, window.scrollY);
     setHidden(false);
     setAtTop(anchor <= 24);
     const onScroll = () => {
+      if (home) { setHidden(false); return; }
       const y = Math.max(0, Math.min(window.scrollY, document.documentElement.scrollHeight - window.innerHeight));
       setAtTop(y <= 24);
       if (y <= 64) { setHidden(false); anchor = y; return; }
@@ -29,7 +30,7 @@ export function Header({ light = false, immersive = false }: { light?: boolean; 
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [pathname]);
+  }, [pathname, home]);
 
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
