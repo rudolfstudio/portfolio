@@ -10,11 +10,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://rudolfstudio.github.io/portfolio"),
   title: { default: "Rudolf Studio — Portfólio", template: "%s | Rudolf Studio" },
   description: "Portfólio de Pablo Rudolf. Identidade visual e design para redes sociais.",
-  alternates: { canonical: "/" },
-  openGraph: { title: "Rudolf Studio — Portfólio", description: "Projetos visuais de Pablo Rudolf.", type: "website", locale: "pt_BR", images: ["/portfolio/opengraph-image.jpg"] },
-  twitter: { card: "summary_large_image", images: ["/portfolio/opengraph-image.jpg"] },
+  alternates: { canonical: "https://rudolfstudio.github.io/portfolio/" },
+  openGraph: { title: "Rudolf Studio — Portfólio", description: "Projetos visuais de Pablo Rudolf.", type: "website", locale: "pt_BR", images: [{ url: "https://rudolfstudio.github.io/portfolio/social/pablo-rudolf-preview.png", width: 1024, height: 1024, alt: "Pablo Rudolf — designer gráfico" }] },
+  twitter: { card: "summary_large_image", images: [{ url: "https://rudolfstudio.github.io/portfolio/social/pablo-rudolf-preview.png", width: 1024, height: 1024, alt: "Pablo Rudolf — designer gráfico" }] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="pt-BR" className={`${display.variable} ${body.variable}`}><body><BarbaTransitions>{children}</BarbaTransitions></body></html>;
 }
+
