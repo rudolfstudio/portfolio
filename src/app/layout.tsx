@@ -7,7 +7,7 @@ const display = Barlow_Condensed({ subsets: ["latin"], weight: ["500", "600", "7
 const body = DM_Sans({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rudolfstudio.github.io/portfolio"),
+  metadataBase: new URL("https://rudolfstudio.github.io"),
   title: { default: "Rudolf Studio — Portfólio", template: "%s | Rudolf Studio" },
   description: "Portfólio de Pablo Rudolf. Identidade visual e design para redes sociais.",
   alternates: { canonical: "https://rudolfstudio.github.io/portfolio/" },
@@ -18,4 +18,5 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="pt-BR" className={`${display.variable} ${body.variable}`}><body><BarbaTransitions>{children}</BarbaTransitions></body></html>;
 }
+
 
