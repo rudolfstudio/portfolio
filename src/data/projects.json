@@ -35,27 +35,83 @@
     "source": "Behance",
     "sourceUrl": "https://www.behance.net/gallery/251835153/Taynara-Guerra-Criativos-para-redes-sociais",
     "cover": {
-      "src": "",
+      "src": "/portfolio/media/taynara/cover.svg",
       "width": 2000,
       "height": 1000
     },
     "images": [
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/taynara/01.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/taynara/02.jpg",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "src": "",
-        "width": 2000,
-        "height": 1500
+        "src": "/portfolio/media/taynara/03.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/04.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/05.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/06.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/07.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/08.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/09.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/10.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/11.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/12.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/13.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/taynara/14.jpg",
+        "width": 1080,
+        "height": 1350
       }
-    ]
+    ],
+    "hidden": false
   },
   {
     "slug": "behance-251834585",
@@ -1514,27 +1570,10 @@
       }
     ],
     "cover": {
-      "src": "/portfolio/media/selected/DRvHJqyAY70/slide-02.jpg",
-      "width": 1080,
-      "height": 1350
+      "src": "/portfolio/media/mirella/cover.svg",
+      "width": 2000,
+      "height": 1000
     },
-    "coverImages": [
-      {
-        "src": "/portfolio/media/selected/DRvHJqyAY70/slide-02.jpg",
-        "width": 1080,
-        "height": 1350
-      },
-      {
-        "src": "/portfolio/media/selected/DRvHJqyAY70/slide-03.jpg",
-        "width": 1080,
-        "height": 1350
-      },
-      {
-        "src": "/portfolio/media/selected/DRvHJqyAY70/slide-04.jpg",
-        "width": 1080,
-        "height": 1350
-      }
-    ],
     "sourceUrls": [
       "https://www.instagram.com/p/DRvHJqyAY70/"
     ],
@@ -1542,7 +1581,8 @@
       "Design de posts",
       "Composição visual",
       "Peças para redes sociais"
-    ]
+    ],
+    "hidden": false
   },
   {
     "slug": "instagram-DRiTzWLgR76",
@@ -1678,6 +1718,46 @@
       "Design de posts",
       "Composição visual",
       "Peças para redes sociais"
+    ]
+  },
+  {
+    "slug": "fidey-identidade-visual",
+    "title": "Fidey",
+    "category": "Identidade visual",
+    "source": "Arquivo local",
+    "sourceUrl": "",
+    "cover": {
+      "src": "/portfolio/media/fidey/07-Fidey.png",
+      "width": 2000,
+      "height": 1000
+    },
+    "images": [
+      {
+        "src": "/portfolio/media/fidey/01.png",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/fidey/02.png",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/fidey/03.png",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "/portfolio/media/fidey/04.png",
+        "width": 1080,
+        "height": 1350
+      }
+    ],
+    "summary": "Identidade visual da Fidey. Marca e aplicações em papelaria e crachás, com variações para Fidey Group e Fidey Capital.",
+    "deliverables": [
+      "Identidade visual",
+      "Aplicações de marca",
+      "Sistema de assinaturas"
     ]
   }
 ]

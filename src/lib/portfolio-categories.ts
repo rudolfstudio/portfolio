@@ -1,8 +1,8 @@
 import { projects, type Project } from "./projects";
 
 export const portfolioCategories = [
-  { slug: "design-de-posts", label: "Design de posts", sourceCategory: "Design para redes", members: ["instagram-DTtWLxyFaZr","instagram-DR22PthAdDj","instagram-DccUtudFT7n","instagram-DSDaoeDgY2G","instagram-Ddm2QLWlYAm","instagram-DcwR9vzFWKI","instagram-DR-ct-6AaSw","instagram-DRiTzWLgR76","instagram-DUgyffOFbo9","instagram-DTTfn93lYXL"] },
-  { slug: "identidade-visual", label: "Identidade visual", sourceCategory: "Identidade visual", members: ["behance-184551257","behance-206087051","behance-100253345","behance-200261679","behance-86600217","behance-104365357"] },
+  { slug: "design-de-posts", label: "Design de posts", sourceCategory: "Design para redes", members: ["instagram-DRvHJqyAY70","behance-251835153","instagram-DTtWLxyFaZr","instagram-DR22PthAdDj","instagram-DccUtudFT7n","instagram-DSDaoeDgY2G","instagram-Ddm2QLWlYAm","instagram-DcwR9vzFWKI","instagram-DR-ct-6AaSw","instagram-DRiTzWLgR76","instagram-DUgyffOFbo9","instagram-DTTfn93lYXL"] },
+  { slug: "identidade-visual", label: "Identidade visual", sourceCategory: "Identidade visual", members: ["fidey-identidade-visual","behance-184551257","behance-206087051","behance-100253345","behance-200261679","behance-86600217","behance-104365357"] },
   { slug: "sites-e-landing-pages", label: "Sites e landing pages", sourceCategory: "Web design", members: [] as string[] },
   { slug: "impressos", label: "Impressos", sourceCategory: "", members: [] as string[] },
   { slug: "thumbs-e-banners", label: "Thumbs e banners", sourceCategory: "", members: [] as string[] },
